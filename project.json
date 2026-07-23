@@ -1,0 +1,10 @@
+{
+  "project": "Nanoparticle Tumor Targeting Simulator",
+  "model": "2D stochastic particle transport and receptor kinetics",
+  "states": [
+    "free",
+    "bound",
+    "internalized",
+    "cleared"
+  ]
+}
