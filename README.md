@@ -1,9 +1,9 @@
-# Nanoparticle Tumor Targeting Simulator
+#Nanoparticle Tumor Targeting Simulator
 
 Interactive 2D stochastic simulation of nanoparticle transport, receptor binding,
-unbinding, internalization, and clearance.
+unbinding, internalization and clearance.
 
-## Visual outputs
+##Visual outputs
 - Animated particle map
 - Free, bound, internalized, and cleared particle states
 - Tumor outline
@@ -12,7 +12,7 @@ unbinding, internalization, and clearance.
 - Tumor accumulation curves
 - Downloadable GIF and CSV data
 
-## Run
+##Run
     python -m venv .venv
     .venv\Scripts\activate
     pip install -r requirements.txt
@@ -22,5 +22,5 @@ On macOS/Linux use:
 
     source .venv/bin/activate
 
-## Scope
-Reduced-order portfolio model. Not a validated clinical or pharmacokinetic tool.
+##Scope
+Reduced order portfolio model. Not a validated clinical or pharmacokinetic tool.
